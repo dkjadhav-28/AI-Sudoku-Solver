@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku-Bot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="logic.js"></script>
+</head>
+<body onload="blankPuzzle()"> 
+    <nav class="navbar bg-body-tertiary p-0">
+        <div class="container-fluid text-bg-secondary p-3">
+          <a class="navbar-brand" href="#">
+            <img src="images/AiLogo.jpg" alt="Logo" width="70" height="58" class="d-inline-block align-text-top img"/>
+            
+          </a>
+          <h1 class="title1">Sudoku-Solver-AI-Bot</h1>
+        </div>
+      </nav>
+
+      <div class="text-bg-dark p-3 mainDiv">
+        <div class="p-3 mb-2 bg-transparent text-dark playground">
+            <div class="puzzle" id="container" >
+            
+            </div>
+            <div class="solve">
+              <div class="d-flex flex-column-reverse ">
+                <div class="p-2 bd-highlight"><button type="button" class="btn btn-success btn-lg buttons" onclick="generateInpt()">Solve</button>
+                </div>
+                <div class="p-2 ">
+                  <button type="button" class="btn btn-primary btn-lg buttons" onclick="clearPuzzle()">Clear</button>
+                </div>
+                
+              </div>
+              
+            </div>
+        </div>
+      </div>
+</body>
+</html>

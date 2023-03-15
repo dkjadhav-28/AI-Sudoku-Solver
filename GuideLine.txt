@@ -1,0 +1,4 @@
+1) we will make small boxes using bootstrap
+2) add onclick event listner to select the cell
+3) event to listern onkeypress to gget the value
+4) validate it and display it in the using innerHtml 

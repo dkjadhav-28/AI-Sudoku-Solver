@@ -1,0 +1,80 @@
+*{
+    margin:0px;
+  }
+  
+  .title1{
+    
+    margin: auto; 
+    
+  }
+  .mainDiv{
+    height: 508px;
+  }
+  
+  .img{
+    position: relative;
+    left: 370px;
+  }
+  .navbar{
+    padding: 0px;
+    margin: 0;
+  }
+  .playground{
+    height: 410px;
+    width: 500px;
+    border: 2px solid white;
+    margin: auto;
+    margin-top: 30px; 
+
+    
+  }
+  
+  .puzzle{
+    height: 360px;
+    width: 360px;
+    border: 1px solid rgb(5, 56, 242);
+    margin: 5px;
+    display: inline-block;
+  }
+  .bigBox{
+    height:120px;
+    border:1.5px solid rgb(8, 143, 253);
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  .smallBox{
+    height: 40px;
+    border:0.8px solid rgb(212, 234, 242);
+    padding: 0;
+    margin: 0;
+    color: antiquewhite;
+    /* padding: 0 0 8px 8px; */
+    padding: 0;
+    font-size: 25px;
+  }
+  .solve{
+    display: inline-block;
+
+    position: absolute;
+    bottom: 77px;
+    margin: 10px;
+  }
+  .cell{
+    height: 40px;
+    width: 40px;
+    border: none;
+    margin: 0;
+    padding: 0 0 8px 12px;
+    background-color: #212529;
+    color: antiquewhite;
+    color: #b4c5b8;
+    color: #8ca4ecc2;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    display: none;
+  }
+.buttons{
+  display: block;
+}
